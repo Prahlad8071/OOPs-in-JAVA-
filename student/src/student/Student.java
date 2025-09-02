@@ -25,6 +25,13 @@ public class Student {
 		this.Department=obj.Department;
 		this.section=obj.section;
 	}
+	public void Search(int RollNumber) {
+		  System.out.println("The student Roll NUmber is "+RollNumber);
+		}
+	
+	public void Search(int RollNumber,String Name) {
+		  System.out.println("The student Roll NUmber is "+RollNumber +" Name is "+ Name);
+		}
 	
 	public void studying(int No_of_hours) {
 		
