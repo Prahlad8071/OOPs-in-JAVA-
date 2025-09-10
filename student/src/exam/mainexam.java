@@ -1,7 +1,7 @@
 package exam;
 
 
-class java extends Assesment{
+class java implements Assesment{
 	
 }
 
